@@ -1,6 +1,6 @@
 {
-  "name": "notion2markdown-action",
-  "version": "0.7.5",
+  "name": "notion2md-action",
+  "version": "1",
   "description": "",
   "main": "index.js",
   "scripts": {

@@ -21,6 +21,6 @@ const config = JSON.parse(configRaw);
     notion.init(config);
     // get output
     const out = await notion.sync();
-    console.info(`Notion2markdown-action finished, queried: ${out.queried}, handled: ${out.handled} and deleted: ${out.deleted}`)
+    console.info(`Notion2md-action finished, queried: ${out.queried}, handled: ${out.handled} and deleted: ${out.deleted}`)
 })();
 
